@@ -12,12 +12,12 @@ public class Medico {
 	private int CRM;
 	
 	
-	public Medico(String id, String nome, String especialidade, int cRM) {
+	public Medico(String id, String nome, String especialidade, int CRM) {
 		
 		this.id = id;
 		this.nome = nome;
 		this.especialidade = especialidade;
-		CRM = cRM;
+		this.CRM = CRM;
 	}
 	
 	public String getId() {
